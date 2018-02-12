@@ -18,3 +18,12 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+
+#### Install Elm
+```shell
+$ cd assets/
+$ npm install elm elm-brunch --save
+$ mkdir elm
+$ elm-package install elm-lang/html -y
+```
